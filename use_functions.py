@@ -61,8 +61,8 @@ def buy_func(): # Покупка
     if float(purchase_sum) > wallet:
         print('Недостаточно средств!')
         menu_func()
-    elif float(purchase_sum) == 0:
-        print('Сумма не может быть равнв нулю!')
+    elif float(purchase_sum) <= 0:
+        print('Сумма не может быть равна нулю!')
         menu_func()
     else:
         purchase_name = input('Введите название покупки: ')
