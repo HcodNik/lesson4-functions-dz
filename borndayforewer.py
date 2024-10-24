@@ -17,9 +17,9 @@ def check_input(value, answer):
         print('Неверно.')
         return check_input(value, answer)
 
-
-check_input('1799', 'Ввведите год рождения А.С.Пушкина: ')
-check_input('6', 'Ввведите день рождения А.С.Пушкина: ')
+if __name__ == '__main__':
+    check_input('1799', 'Ввведите год рождения А.С.Пушкина: ')
+    check_input('6', 'Ввведите день рождения А.С.Пушкина: ')
 
 
 
