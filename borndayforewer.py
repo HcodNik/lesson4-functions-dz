@@ -6,6 +6,8 @@
 Задание: переписать код используя как минимум 1 функцию
 
 """
+import math
+from audioop import reverse
 
 
 def check_input(value, answer):
@@ -17,14 +19,8 @@ def check_input(value, answer):
         print('Неверно.')
         return check_input(value, answer)
 
+
 if __name__ == '__main__':
     check_input('1799', 'Ввведите год рождения А.С.Пушкина: ')
     check_input('6', 'Ввведите день рождения А.С.Пушкина: ')
-
-
-
-
-
-
-
 
